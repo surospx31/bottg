@@ -2,7 +2,7 @@ import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Твій токен бота
-TOKEN = '7865114262:AAGJs3AvXkHiVlSBDvl63udmWOSCIjaYgMk'
+TOKEN = '7691652621:AAHn5ZSLt44h8raB6yQBAVJ-E4rK3r9AX7Y'
 bot = telebot.TeleBot(TOKEN)
 
 @bot.chat_join_request_handler()
