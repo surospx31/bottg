@@ -13,7 +13,7 @@ def handle_chat_join_request(request: telebot.types.ChatJoinRequest):
     
     # Створюємо кнопку з посиланням
     keyboard = InlineKeyboardMarkup()
-    button = InlineKeyboardButton("Подати заявку", url="https://t.me/+PhGJfAaSF343NmVi")  # Заміни посилання
+    button = InlineKeyboardButton("Подати заявку", url="https://telega.news/go/rPoX2TTu5USOJlXDrscxuw")  # Заміни посилання
     keyboard.add(button)
 
     with open(photo_path, "rb") as photo:
